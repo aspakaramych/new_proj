@@ -2,7 +2,7 @@
 
 import sqlite3
 
-db = sqlite3.connect('./db/data')
+db = sqlite3.connect('db/data')
 sql = db.cursor()
 
 sql.execute("""CREATE TABLE IF NOT EXISTS data_services(

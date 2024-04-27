@@ -3,7 +3,7 @@
 import sqlite3
 
 #Создание класса бд и курсора
-db = sqlite3.connect('./db/data', check_same_thread=False)
+db = sqlite3.connect('db/data', check_same_thread=False)
 sql = db.cursor()
 
 #Функция для записи из excel в бд
